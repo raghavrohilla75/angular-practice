@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "profiles": [
     {
       "id": 1,
       "name": "Raghav",
@@ -15,5 +15,5 @@
       "name": "Anirudh",
       "age": "25"
     }
-  ],
+  ]
 }
