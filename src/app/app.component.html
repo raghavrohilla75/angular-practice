@@ -5,3 +5,15 @@
 
 <!-- <app-main-container></app-main-container> -->
 
+
+<!-- starting for the http get tutorial -->
+
+<input style="border : 1px solid red" type="text" (keyup) = "onNameKeyUp($event)">
+<button (click)= getProfile() > Get Profile </button>
+<br>
+
+<div *ngIf = "found" >
+  <span> {{name}}'s age is {{age}} </span>
+</div>
+
+<button (click)= postProfile() > Post Profile </button>

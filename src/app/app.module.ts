@@ -9,6 +9,8 @@ import { MainContainerComponent } from './main-container/main-container.componen
 import { OuterComponent } from './outer/outer.component';
 import { InnerComponent } from './inner/inner.component';
 
+import { HttpClientModule } from '@angular/common/http' ; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { InnerComponent } from './inner/inner.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
