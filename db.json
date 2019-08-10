@@ -1,1 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Raghav",
+      "age": "24"
+    },
+    {
+      "id": 2,
+      "name": "Avi",
+      "age": "28"
+    },
+    {
+      "id": 3,
+      "name": "Anirudh",
+      "age": "25"
+    }
+  ],
 
