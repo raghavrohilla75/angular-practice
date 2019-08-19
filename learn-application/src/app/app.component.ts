@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-@Component({
+@Component({ 
+  //meta data
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+    <app-customers></app-customers> 
+  `//child component
 })
-export class AppComponent {
-  title = 'learn-application';
-}
+export class AppComponent implements OnInit {
+  // title ='Hello World using Data Binding'
+
+  // title: string ;
+  constructor() { }
+
+  ngOnInit() {
+    // this.title = "Hello World using a service which gets us the data."
+  }
+  
+} 
