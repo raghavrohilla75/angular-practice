@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- <h1>Angular</h1> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> -->
+</head>
+
+<!-- For passing value from one input to another input using JavaScript -->
+<input type="text" placeholder="Your personal message" id="inputBox1"></input>
+<button name="design1" id="buttonToPassValue"> Choose Design </button>
+<input type="text" class="input-text" name="billing_last_name" id="inputBox2">
+
+<script>
+  window.onload = function () {
+    document.getElementById('buttonToPassValue').onclick = function () {
+      document.getElementById('inputBox2').value = document.getElementById('inputBox1').value;
+    }
+  }; 
+</script>
+
+
+
+<!-- For passing value from one input to another input using Angular Script -->
+<!-- <body ng-app="">
+  <form>
+    <label>First textbox</label>
+    <input type="text" ng-model="name" /> <br>
+  </form>
+
+  <form>
+    <label>Second textbox</label>
+    <input type="text" value="{{name}}" />
+  </form>
+</body> -->
+
+
+
+<!-- For adding tow numbers -->
+<!-- <body>
+    <h1>Adding 'a' and 'b'</h1>
+    
+      a: <input type="number" name="a" id="a"><br>
+      b: <input type="number" name="b" id="b"><br>
+      <button onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
+    
+    <script>
+      function add(a,b) {
+        var sum = parseInt(a) + parseInt(b);
+        alert(sum);
+      }
+    </script>
+    </body> -->
+
+
+
+</html>
